@@ -1,0 +1,45 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.task-card {
+  margin: 10px 0; 
+  z-index: 1;
+  background-color: white;
+}
+
+
+.lane#done .task-card {
+  background-color: white !important; 
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.modal-header {
+  display: flex;
+ justify-content: center;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: green;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: green;
+}
