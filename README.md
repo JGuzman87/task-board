@@ -15,6 +15,7 @@ The purspose of this project is to create task cards by adding the task title, d
 
 Website:
 
+https://jguzman87.github.io/task-board/
 
 ![alt text](image.png)
 
