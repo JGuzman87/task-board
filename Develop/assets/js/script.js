@@ -40,7 +40,7 @@ function createTaskCard(task) {
         
         
         let cardBody = $('<div>').addClass('card-body');
-        cardBody.append(cardTitle, cardDueDate, cardDescription, deleteButton);
+        cardBody.append(cardTitle, cardDescription,cardDueDate, deleteButton);
         taskCard.append(cardBody);
         
 
@@ -76,10 +76,7 @@ function handleAddTask(event){
     let taskDescription= $('#taskDescription').val();
     let taskDueDate = $('#taskDueDate').val();
 
-    if (!taskList) {
-        tasklist = [];
-    }
-    
+  
 
     let newTask = {
         id: generateTaskId(),
